@@ -16,6 +16,8 @@ public class Prefracture : MonoBehaviour
     /// Collector object that stores the produced fragments
     /// </summary>
     private GameObject fragmentRoot;
+    
+    public GameObject FragmentRoot => fragmentRoot;
 
     void OnValidate()
     {
