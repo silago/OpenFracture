@@ -25,8 +25,6 @@ public class Fracture : MonoBehaviour
 
     public GameObject FragmentRoot => fragmentRoot;
     
-    public List<
-    
     [ContextMenu("Print Mesh Info")]
     public void PrintMeshInfo()
     {
